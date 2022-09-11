@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import myName from "./myName";
 
 function component() {
     const element = document.createElement('div');
@@ -10,3 +11,5 @@ function component() {
   }
   
   document.body.appendChild(component());
+
+  console.log(myName("Cameron"));
