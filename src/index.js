@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import myName from "./myName";
+import print from "./print";
 import './styles.css';
 import Profile from './assets/profile.jpeg'
 
@@ -21,3 +22,4 @@ function component() {
   document.body.appendChild(component());
 
   console.log(myName("Cameron"));
+  print();
