@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+.hello{
+    color: red;
+}
+img{
+    border-radius: 10rem;
+}
